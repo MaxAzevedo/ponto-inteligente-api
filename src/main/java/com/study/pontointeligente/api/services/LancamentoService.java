@@ -1,4 +1,4 @@
-package com.study.pontointeligente.api.service;
+package com.study.pontointeligente.api.services;
 
 import java.util.Optional;
 

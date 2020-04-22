@@ -16,6 +16,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import com.study.pontointeligente.api.entities.Funcionario;
 import com.study.pontointeligente.api.repositories.FuncionarioRepository;
+import com.study.pontointeligente.api.services.FuncionarioService;
 
 @SpringBootTest
 @ActiveProfiles("test")

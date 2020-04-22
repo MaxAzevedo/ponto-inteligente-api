@@ -1,4 +1,4 @@
-package com.study.pontointeligente.api.service.impl;
+package com.study.pontointeligente.api.service.impls;
 
 import java.util.Optional;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.study.pontointeligente.api.entities.Lancamento;
 import com.study.pontointeligente.api.repositories.LancamentoRepository;
-import com.study.pontointeligente.api.service.LancamentoService;
+import com.study.pontointeligente.api.services.LancamentoService;
 
 @Service
 public class LancamentoServiceImpl implements LancamentoService{

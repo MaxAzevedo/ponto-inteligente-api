@@ -16,6 +16,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import com.study.pontointeligente.api.entities.Empresa;
 import com.study.pontointeligente.api.repositories.EmpresaRepository;
+import com.study.pontointeligente.api.services.EmpresaService;
 
 @SpringBootTest
 @ActiveProfiles("test")

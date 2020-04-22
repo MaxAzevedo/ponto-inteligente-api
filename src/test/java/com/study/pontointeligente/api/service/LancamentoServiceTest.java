@@ -19,6 +19,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import com.study.pontointeligente.api.entities.Lancamento;
 import com.study.pontointeligente.api.repositories.LancamentoRepository;
+import com.study.pontointeligente.api.services.LancamentoService;
 
 @SpringBootTest
 @ActiveProfiles("test")

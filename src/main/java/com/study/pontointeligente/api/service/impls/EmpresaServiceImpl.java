@@ -1,4 +1,4 @@
-package com.study.pontointeligente.api.service.impl;
+package com.study.pontointeligente.api.service.impls;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.study.pontointeligente.api.entities.Empresa;
 import com.study.pontointeligente.api.repositories.EmpresaRepository;
-import com.study.pontointeligente.api.service.EmpresaService;
+import com.study.pontointeligente.api.services.EmpresaService;
 
 @Service
 public class EmpresaServiceImpl implements EmpresaService{

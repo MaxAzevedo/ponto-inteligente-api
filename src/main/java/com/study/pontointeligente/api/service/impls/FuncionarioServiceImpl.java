@@ -1,4 +1,4 @@
-package com.study.pontointeligente.api.service.impl;
+package com.study.pontointeligente.api.service.impls;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.study.pontointeligente.api.entities.Funcionario;
 import com.study.pontointeligente.api.repositories.FuncionarioRepository;
-import com.study.pontointeligente.api.service.FuncionarioService;
+import com.study.pontointeligente.api.services.FuncionarioService;
 
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService{
